@@ -36,7 +36,7 @@ public class ConexaoBancoDados {
 		properties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
 		properties.put("hibernate.connection.url", "jdbc:mysql://127.0.0.1:3306/projeto?createDatabaseIfNotExist=true&useSSL=false");
 		properties.put("hibernate.connection.username", "root");
-		//properties.put("hibernate.connection.password", ""); senha
+		//properties.put("hibernate.connection.password", "root"); senha
 		properties.put("hibernate.c3p0.min_size", "10");
 		properties.put("hibernate.c3p0.max_size" ,"20" );
 		properties.put("hibernate.c3p0.acquire_increment","1");
